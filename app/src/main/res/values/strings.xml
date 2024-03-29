@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Final Project Fitness Application</string>
+    <string name="heart_rate">Heart Rate: </string>
+    <string name="stress_level">Stress: </string>
+    <string name="previous_heart_rate_data_title">Heart Rate Record</string>
+    <string name="previous_heart_rate_data">Previous Heart Rate Data</string>
+    <string name="save_data">Save Data</string>
+    <string name="start_heart_rate_scan">Start Heart Rate Scan</string>
+    <string name="show_previous_data">Show Previous Data</string>
+    <string name="sleep_tracking">Sleep Tracking</string>
+</resources>

@@ -1,0 +1,36 @@
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white200"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:boxedEdges="all">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="@color/white200">
+
+        <TextView
+            android:id="@+id/tvSleepInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Sleep Pattern Information"
+            android:textColor="@color/grey"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnStartSleepPattern"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Sleep Pattern"
+            android:layout_below="@id/tvSleepInfo"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    </ScrollView>
+</androidx.wear.widget.BoxInsetLayout>
